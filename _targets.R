@@ -4,7 +4,7 @@ library(targets)
 library(plm)
 # set target options to load the packages that the scripted targets need to run in the global environment
 tar_option_set(
-  packages = c("srvyr", "gt", "gtsummary", "modelsummary", "haven", "Hmisc", "weights", "knitr", "tidyverse", "ggpubr", "webshot2", "lmtest", "sandwich", "RColorBrewer",'tseries', "mice", "patchwork", "plm"), 
+  packages = c("srvyr", "gt", "gtsummary", "modelsummary", "haven", "Hmisc", "weights", "knitr", "tidyverse", "ggpubr", "webshot2", "lmtest", "sandwich", "RColorBrewer",'tseries', "mice", "patchwork"), 
   format = "rds")
 
 # (unchanged from template) tar_make_clustermq() configuration:
