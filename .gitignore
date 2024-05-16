@@ -1,0 +1,12 @@
+_targets/*
+Figures_Tables/*
+MCS_data/*
+UKLHS_data/
+z_OLD/
+.RData
+.Rhistory
+CovidYAMH.Rproj
+R/.DS_Store
+.Rproj.user
+.Rapp.history
+.DS_Store
