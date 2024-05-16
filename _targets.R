@@ -1,9 +1,10 @@
 # This file has been generated from the template produced by running the command targets::use_targets(). The author followed the comments available in the _targets.R template write this script. Further information about the targets package and set-up can be found in: https://books.ropensci.org/targets/walkthrough.html#inspect-the-pipeline 
 
 library(targets)
+library(plm)
 # set target options to load the packages that the scripted targets need to run in the global environment
 tar_option_set(
-  packages = c("srvyr", "gt", "gtsummary", "modelsummary", "haven", "Hmisc", "weights", "knitr", "tidyverse", "ggpubr", "webshot2", "lmtest", "sandwich", "RColorBrewer",'tseries', "mice", "patchwork"), 
+  packages = c("srvyr", "gt", "gtsummary", "modelsummary", "haven", "Hmisc", "weights", "knitr", "tidyverse", "ggpubr", "webshot2", "lmtest", "sandwich", "RColorBrewer",'tseries', "mice", "patchwork", "plm"), 
   format = "rds")
 
 # (unchanged from template) tar_make_clustermq() configuration:
